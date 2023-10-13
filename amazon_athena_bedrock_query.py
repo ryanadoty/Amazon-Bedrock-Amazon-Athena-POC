@@ -26,7 +26,7 @@ llm = Bedrock(
 
 
 # Executing the SQL database chain with the users question
-def rds_answer(question):
+def athena_answer(question):
     """
     This function collects all necessary information to execute the sql_db_chain and get an answer generated, taking
     a natural language question in and returning an answer and generated SQL query.
