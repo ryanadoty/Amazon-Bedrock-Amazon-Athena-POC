@@ -74,7 +74,7 @@ def load_samples():
     # instantiating the sql samples variable
     sql_samples = None
     # opening our prompt sample file
-    with open("Sampledata/moma_examples.yaml", "r") as stream:
+    with open("SampleData/moma_examples.yaml", "r") as stream:
         # reading our prompt samples into the sql_samples variable
         sql_samples = yaml.safe_load(stream)
     # returning the sql samples as a string
